@@ -1,0 +1,21 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "sqlServerName": {
+      "value": "TomaTestSQL01"
+    },
+    "sqlDatabaseName": {
+      "value": "TomaTest01"
+    },
+    "appServiceName": {
+      "value": "TomaTestL01"
+    },
+    "appServicePlanName": {
+      "value": "TomaTest01"
+    },
+    "location": {
+      "value": "East US"
+    }
+  }
+}
